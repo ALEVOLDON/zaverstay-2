@@ -1,2 +1,2 @@
 # zaverstay-2
-repo for marathon
+Academy marathon repository
