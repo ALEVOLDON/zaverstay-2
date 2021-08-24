@@ -8,8 +8,15 @@
   </head>
   <body>
     <header class="main-header">
-      <h1 class="visually-hidden">Интернет магазин Ботаника</h1>
       <nav class="main-nav">
+        <a href="#">
+          <img
+            src="../zaverstay-2/img/1-logo-header.svg"
+            width="100"
+            height="32"
+            alt="логотип"
+          />
+        </a>
         <ul class="site-navigation">
           <li class="site-navigation-item">
             <a href="#">Каталог</a>
@@ -19,11 +26,6 @@
           </li>
           <li class="site-navigation-item">
             <a href="#">Отзывы</a>
-          </li>
-          <li class="site-navigation-item">
-            <a href="#">
-              <img src="../zaverstay-2/img/1-logo-header.svg" alt="логотип" />
-            </a>
           </li>
           <li class="site-navigation-item">
             <a href="#">Спецпредложения</a>
@@ -36,7 +38,9 @@
           </li>
         </ul>
       </nav>
-
+    </header>
+    <main>
+      <h1 class="visually-hidden">Интернет магазин Ботаника</h1>
       <section class="designer-bouquets">
         <h2>Авторские букеты в Петербурге</h2>
         <p>Оригинальные свежие букеты с доставкой по всему городу</p>
@@ -53,84 +57,73 @@
           height="420"
           alt="букет с розами"
         />
-        <div class="benefits">
-          <ul class="benefits-list">
-            <li class="benefits-item">
-              <article>
-                <h3>Быстрая доставка</h3>
-                <img
-                  src="../zaverstay-2/img/icon-auto-1.svg"
-                  alt="быстрая доставка"
-                />
-                <p>
-                  Можем собрать букет и передать его в доставку всего за час.
-                </p>
-              </article>
-            </li>
-            <li class="benefits-item">
-              <article>
-                <h3>Всегда свежие цветы</h3>
-                <img
-                  src="../zaverstay-2/img/icon-flawers-2.svg"
-                  alt="свежие цветы"
-                />
-                <p>
-                  Тщательно следим за состоянием цветов, а опытные флористы
-                  отбирают для букетов каждый цветок.
-                </p>
-              </article>
-            </li>
-            <li class="benefits-item">
-              <article>
-                <h3>Отправляем фото цветов</h3>
-                <img
-                  src="../zaverstay-2/img/icon-photo-3.svg"
-                  alt="фото цветов"
-                />
-                <p>Перед доставкой сделаем фотографию букета и отправим вам.</p>
-              </article>
-            </li>
-          </ul>
-        </div>
+        <dl>
+          <dt>Быстрая доставка</dt>
+          <dd>Можем собрать букет и передать его в доставку всего за час.</dd>
+
+          <dt>Всегда свежие цветы</dt>
+          <dd>
+            Тщательно следим за состоянием цветов, а опытные флористы отбирают
+            для букетов каждый цветок.
+          </dd>
+
+          <dt>Отправляем фото цветов</dt>
+          <dd>Перед доставкой сделаем фотографию букета и отправим вам.</dd>
+        </dl>
       </section>
-    </header>
-    <main>
       <section class="popular-bouquets">
         <h2>Популярные букеты</h2>
-        <h3>Букет «Нежность»</h3>
-        <p>
-          Элегантный букет, который станет отличным подарком на день рождения
-          или юбилей.
-        </p>
-        <span class="size">30 × 40 см</span>
-        <span class="price">3600 руб.</span>
-        <a href="#">Заказать</a>
-        <img
-          src="../zaverstay-2/img/bouquet-tenderness.png"
-          alt="популярный букет"
-        />
-        <div>
-          <ul class="catalog-list">
-            <li class="catalog-item">
-              <a href="#">
-                <h3>Свадебные букеты</h3>
-                <p>Букеты для невест</p>
-              </a>
-            </li>
-            <li class="catalog-item">
-              <a href="#">
-                <h3>Букеты с пионами</h3>
-                <p>Букеты с сезонными пионами</p>
-              </a>
-            </li>
-            <li class="catalog-item">
-              <a href="#">
-                <h3>Выбрать букет</h3>
-                <p>Букеты в ассортименте</p>
-              </a>
+        <div class="slider">
+          <ul class="slider-list">
+            <li class="slider-item">
+              <h3>Букет «Нежность»</h3>
+              <p>
+                Элегантный букет, который станет отличным подарком на день
+                рождения или юбилей.
+              </p>
+              <span class="size">30 × 40 см</span>
+              <span class="price">3600 руб.</span>
+              <a href="#">Заказать</a>
+              <img
+                src="../zaverstay-2/img/bouquet-tenderness.png"
+                width="387"
+                height="438"
+                alt="популярный букет"
+              />
             </li>
           </ul>
+          <div class="slider-controls">
+            <button type="button">
+              <span class="visually-hidden">Назад</span>
+            </button>
+            <button type="button">
+              <span class="visually-hidden">Вперед</span>
+            </button>
+          </div>
         </div>
+      </section>
+      <section class="catalog">
+        <h2 class="visually-hidden">Разделы каталога</h2>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <a href="#">
+              <h3>Свадебные букеты</h3>
+              <p>Букеты для невест</p>
+            </a>
+          </li>
+          <li class="catalog-item">
+            <a href="#">
+              <h3>Букеты с пионами</h3>
+              <p>Букеты с сезонными пионами</p>
+            </a>
+          </li>
+          <li class="catalog-item">
+            <a href="#">
+              <h3>Выбрать букет</h3>
+              <p>Букеты в ассортименте</p>
+            </a>
+          </li>
+        </ul>
       </section>
 
       <article class="discount">
@@ -151,18 +144,10 @@
         <ul class="steps-list">
           <li class="steps-item">
             <h3>Заказ</h3>
-            <img
-              src="../zaverstay-2/img/icon-order-1.svg"
-              alt="иконка заказа"
-            />
             <p>Выбирите понравившейся букет из каталога и оформите заказ</p>
           </li>
           <li class="steps-item">
             <h3>Уточнение деталей</h3>
-            <img
-              src="../zaverstay-2/img/icon-clarification-of-details-2.svg"
-              alt="иконка уточнение деталей"
-            />
             <p>
               Наш флорист позвонит вам после оформления заказа, чтобы уточнить
               детали
@@ -170,18 +155,10 @@
           </li>
           <li class="steps-item">
             <h3>Оплата</h3>
-            <img
-              src="../zaverstay-2/img/icon-payment-3.svg"
-              alt="иконка оплаты"
-            />
             <p>Оплатить заказ можно онлайн на сайте или при получении</p>
           </li>
           <li class="steps-item">
             <h3>Доставка</h3>
-            <img
-              src="../zaverstay-2/img/icon-delivery-4.svg"
-              alt="иконка доставки"
-            />
             <p>Курьер позвонит за час до прибытия и доставит заказ вовремя</p>
           </li>
         </ul>
@@ -194,26 +171,17 @@
         <ul class="social-list">
           <li class="social-item">
             <a href="#">
-              <img
-                src="../zaverstay-2/img/instagram_icon.svg"
-                alt="иконка инстаграма"
-              />
+              instagram
             </a>
           </li>
           <li class="social-item">
             <a href="#">
-              <img
-                src="../zaverstay-2/img/facebook_icon.svg"
-                alt="иконка фейсбука"
-              />
+              facebook
             </a>
           </li>
           <li class="social-item">
             <a href="#">
-              <img
-                src="../zaverstay-2/img/twitter_icon.svg"
-                alt="иконка твиттера"
-              />
+              twitter
             </a>
           </li>
         </ul>
@@ -276,10 +244,9 @@
           </li>
         </ul>
       </section>
-    </main>
-    <footer class="main-footer">
       <section class="maps">
         <h2>Мы ждем вас</h2>
+        <img src="../zaverstay-2/img/map.jpg" width="1440" height="644" alt="карта">
         <dl class="contacts-list">
           <dt>Приходите к нам:</dt>
           <dd>Санкт-Петербург, ул. Большая Конюшенная, 19</dd>
@@ -291,9 +258,12 @@
           <dd><a href="mailto:info@botanika.ru">info@botanika.ru</a></dd>
         </dl>
       </section>
+    </main>
+    <footer class="main-footer">
+      
 
       <a href="#">
-        <img src="../zaverstay-2/img/2-logo-footer.svg" alt="логотип" />
+        <img src="../zaverstay-2/img/2-logo-footer.svg" width="100" height="32" alt="логотип" />
       </a>
       <ul class="footer-site-navigation">
         <li>
@@ -315,26 +285,17 @@
       <ul class="social-list">
         <li class="social-item">
           <a href="#">
-            <img
-              src="../zaverstay-2/img/instagram_icon-2.svg"
-              alt="иконка инстаграма"
-            />
+            instagram
           </a>
         </li>
         <li class="social-item">
           <a href="#">
-            <img
-              src="../zaverstay-2/img/facebook_icon-2.svg"
-              alt="иконка фейсбука"
-            />
+            facebook
           </a>
         </li>
         <li class="social-item">
           <a href="#">
-            <img
-              src="../zaverstay-2/img/twitter_icon-2.svg"
-              alt="иконка твиттера"
-            />
+            twitter
           </a>
         </li>
       </ul>
