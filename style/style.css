@@ -7,9 +7,20 @@ html {
   box-sizing: inherit;
 }
 
+/* global style */
+
 body {
-  
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
 
 .main-nav a {
   font-family: Montserrat;
@@ -20,6 +31,8 @@ body {
   letter-spacing: 0em;
   color: #ae7c78;
 }
+
+/* main */
 
 .designer-bouquets h2 {
   font-family: Playfair Display;
@@ -57,6 +70,167 @@ body {
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0em;
-  background-color: #D89999;
+  background-color: #d89999;
+  color: #ffffff;
 }
 
+.benefits dt {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #ae7c78;
+}
+
+.benefits dd {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #ae7c78;
+}
+
+.popular-bouquets h2 {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #ae7c78;
+}
+
+.slider-item h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #ae7c78;
+}
+
+.slider-item p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #ae7c78;
+}
+
+.slider-item .size {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #ae7c78;
+}
+
+.slider-item .price {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #ae7c78;
+}
+
+.slider-item a {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  background-color: #d89999;
+  color: #ffffff;
+}
+
+/* !!! no working */
+
+.catalog-item {
+  background-color: rgba(174, 124, 120, 0, 6);
+}
+
+.catalog-item h3 {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.catalog-item p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+
+.discount .wrapper {
+  background-color: rgba(174, 124, 120, 1);
+}
+
+.discount h3 {
+  font-family: Playfair Display;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.discount p {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+
+.steps h2 {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #ae7c78;
+}
+
+.steps-item h3 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #ae7c78;
+}
+
+.steps-item p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #ae7c78;
+}
