@@ -12,7 +12,6 @@ body {
   /* padding: 0; */
   /* font-family: "Montserrat", sans-serif; */
   /* font-family: "Playfair Display", serif; */
-  background: gold;
 }
 
 .main-nav a {
@@ -22,5 +21,30 @@ body {
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0em;
+  color: #AE7C78;
+}
+
+.designer-bouquets h2 { 
+  font-family: Playfair Display;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #AE7C78;
+  ;
+}
+
+.designer-bouquets h2 span {
+  font-family: Playfair Display;
+  font-size: 44px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #AE7C78;
+  
 }
 
