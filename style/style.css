@@ -8,10 +8,7 @@ html {
 }
 
 body {
-  /* margin: 0; */
-  /* padding: 0; */
-  /* font-family: "Montserrat", sans-serif; */
-  /* font-family: "Playfair Display", serif; */
+  
 }
 
 .main-nav a {
@@ -21,19 +18,17 @@ body {
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0em;
-  color: #AE7C78;
+  color: #ae7c78;
 }
 
-.designer-bouquets h2 { 
+.designer-bouquets h2 {
   font-family: Playfair Display;
   font-size: 44px;
   font-style: normal;
   font-weight: 400;
   line-height: 59px;
   letter-spacing: 0em;
-  text-align: left;
-  color: #AE7C78;
-  ;
+  color: #ae7c78;
 }
 
 .designer-bouquets h2 span {
@@ -43,8 +38,25 @@ body {
   font-weight: 400;
   line-height: 59px;
   letter-spacing: 0em;
-  text-align: left;
-  color: #AE7C78;
-  
+  color: #ae7c78;
+}
+.designer-bouquets p {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #ae7c78;
+}
+
+.designer-bouquets a {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  background-color: #D89999;
 }
 
