@@ -1,3 +1,6 @@
+:root {
+}
+
 html {
   box-sizing: border-box;
 }
@@ -10,6 +13,11 @@ html {
 /* global style */
 
 body {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
   margin: 0;
   padding: 0;
 }
@@ -22,15 +30,17 @@ a {
   text-decoration: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 /* header */
 
 .main-nav a {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
@@ -39,10 +49,8 @@ a {
 .designer-bouquets h2 {
   font-family: Playfair Display;
   font-size: 44px;
-  font-style: normal;
   font-weight: 400;
   line-height: 59px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
@@ -50,114 +58,63 @@ a {
   font-family: Playfair Display;
   font-size: 44px;
   font-style: italic;
-  font-weight: 400;
   line-height: 59px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 .designer-bouquets p {
-  font-family: Montserrat;
   font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 29px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
 .designer-bouquets a {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
   background-color: #d89999;
   color: #ffffff;
 }
 
 .benefits dt {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
 .benefits dd {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
 .popular-bouquets h2 {
   font-family: Playfair Display;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 48px;
-  letter-spacing: 0.02em;
   color: #ae7c78;
 }
 
 .slider-item h3 {
-  font-family: Montserrat;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: 29px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
 .slider-item p {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
 .slider-item .size {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
 .slider-item .price {
-  font-family: Montserrat;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: 29px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
 .slider-item a {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
   background-color: #d89999;
   color: #ffffff;
 }
-
-/* !!! no working */
 
 .catalog-item {
   background-color: rgba(174, 124, 120, 0.6);
@@ -166,20 +123,12 @@ a {
 .catalog-item h3 {
   font-family: Playfair Display;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 48px;
-  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .catalog-item p {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
   color: #ffffff;
 }
 
@@ -190,131 +139,88 @@ a {
 .discount h3 {
   font-family: Playfair Display;
   font-size: 44px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 59px;
-  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .discount p {
-  font-family: Montserrat;
   font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 29px;
-  letter-spacing: 0em;
   color: #ffffff;
 }
 
 .steps h2 {
   font-family: Playfair Display;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 48px;
-  letter-spacing: 0.02em;
   color: #ae7c78;
 }
 
 .steps-item h3 {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
 .steps-item p {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
 .news h2 {
   font-family: Playfair Display;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 48px;
-  letter-spacing: 0.02em;
+
   color: #ae7c78;
 }
 
 .news p {
-  font-family: Montserrat;
   font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 29px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
 .reviews h2 {
   font-family: Playfair Display;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 48px;
-  letter-spacing: 0.02em;
   color: #ae7c78;
 }
 
 .reviews-item p {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
 .reviews-item cite {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0em;
   color: #ae7c78;
+}
+
+.maps-wrapper {
+  width: 386px;
+  height: 520px;
+  background: #f7fafc;
+  box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+  border-radius: 12px;
 }
 
 .maps-wrapper h2 {
   font-family: Playfair Display;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 48px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
 .maps-wrapper dt {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
 .maps-wrapper dd,
 .maps-wrapper dd a {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0em;
   color: #ae7c78;
 }
 
@@ -325,11 +231,5 @@ a {
 }
 
 .footer-site-navigation a {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
   color: #ffffff;
 }
